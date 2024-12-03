@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      body{
+    background: red url(img.ooredoo.jpg) no-repeat center top;
+}
+.Telephone{
+    background-color: aliceblue;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 10px 60px;
+    font-size: 30px;
+    font-weight: 60px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+
+
+
+
+.btn{
+    background-color: aliceblue;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 59%;
+    padding: 10px 60px;
+    font-size: 30px;
+    font-weight: 60px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.btn1{
+    color: aliceblue;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+    padding: 10px 60px;
+    font-size: 30px;
+    font-weight: 60px;
+    margin: 10px 10px;
+}
+.btn2{
+    background-color: aliceblue;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 41%;
+    padding: 10px 60px;
+    font-size: 30px;
+    font-weight: 60px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}  
+    </style>
+    <meta charset="UTF-8">
+    <title>ooredoo</title>
+</head>
+<body>
+
+    <h2 class="btn1">ooredoo رقم موبايل</h2>
+    
+    <input type="tel" value="05" class="Telephone" name="Telephone">
+    <input type="submit" class="btn" value="ارسال" onclick="alert('تمت العملية بنجاح');setTimeout(() => {
+        window.location.href = 'index.html';
+      }, 1);">
+<input type="submit" class="btn2" value="رجوع" onclick="location.href='index2.html'">
+    
+</body>
+</html>

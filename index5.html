@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+    background: red url(img.ooredoo.jpg) no-repeat center top;
+}
+.btn1{
+    background-color: aliceblue;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 10px 60px;
+    font-size: 20px;
+    font-weight: 70px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.btn2{
+    background-color: aliceblue;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    padding: 10px 60px;
+    font-size: 20px;
+    font-weight: 60px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+.btn{
+    color: aliceblue;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+    padding: 10px 60px;
+    font-size: 30px;
+    font-weight: 80px;
+    margin: 10px 10px;
+}
+.btn3{
+    background-color: aliceblue;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    padding: 10px 60px;
+    font-size: 30px;
+    font-weight: 60px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}  
+
+@media (max-width: 400px) {
+  * {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .btn3{
+    background-color: aliceblue;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    padding: 10px 60px;
+    font-size: 30px;
+    font-weight: 60px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}  
+}
+
+
+
+
+    </style>
+    <meta charset="UTF-8">
+    <title>ooredoo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <h2 class="btn">اختر نوع الخدمة</h2>
+   
+  <button class="btn1" onclick="location.href='index4.html'">
+    <span class="icon">
+        <i class="fas fa-dollar-sign"></i>
+    </span>
+    <span class="btnl">شحن رصيد</span>
+  </button> 
+
+  <button class="btn2" onclick="location.href='index2.html'">
+    <span class="icon">
+        <i class="fas fa-hand-holding-usd"></i>
+    </span>
+    <span class="">شحن حزم</span>
+  </button>
+
+
+
+<input type="submit" class="btn3" value="رجوع" onclick="location.href='index.html'">
+
+</body>
+</html>
